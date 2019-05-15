@@ -21,12 +21,17 @@
 
     NSLog(@"增加方法一");
 
+    NSLog(@"增加方法二");
 
     return YES;
 }
 
 
 - (void)addMethod1{
+
+}
+
+- (void)addMethod2{
 
 }
 
