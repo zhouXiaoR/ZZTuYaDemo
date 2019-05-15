@@ -13,6 +13,8 @@
 		69BBA589228C023B00D6EEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BBA588228C023B00D6EEC8 /* Assets.xcassets */; };
 		69BBA58C228C023B00D6EEC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BBA58A228C023B00D6EEC8 /* LaunchScreen.storyboard */; };
 		69BBA58F228C023B00D6EEC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BBA58E228C023B00D6EEC8 /* main.m */; };
+		69BBA597228C055000D6EEC8 /* TYChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BBA596228C055000D6EEC8 /* TYChartView.m */; };
+		69BBA59C228C05AE00D6EEC8 /* TYRoomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BBA59B228C05AE00D6EEC8 /* TYRoomModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		69BBA58B228C023B00D6EEC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69BBA58D228C023B00D6EEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69BBA58E228C023B00D6EEC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69BBA595228C055000D6EEC8 /* TYChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYChartView.h; sourceTree = "<group>"; };
+		69BBA596228C055000D6EEC8 /* TYChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYChartView.m; sourceTree = "<group>"; };
+		69BBA59A228C05AE00D6EEC8 /* TYRoomModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRoomModel.h; sourceTree = "<group>"; };
+		69BBA59B228C05AE00D6EEC8 /* TYRoomModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRoomModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		69BBA57E228C023800D6EEC8 /* ZZTuYaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				69BBA599228C058C00D6EEC8 /* Models */,
+				69BBA598228C055500D6EEC8 /* Views */,
 				69BBA57F228C023800D6EEC8 /* AppDelegate.h */,
 				69BBA580228C023800D6EEC8 /* AppDelegate.m */,
 				69BBA582228C023800D6EEC8 /* ViewController.h */,
@@ -69,6 +77,24 @@
 				69BBA58E228C023B00D6EEC8 /* main.m */,
 			);
 			path = ZZTuYaDemo;
+			sourceTree = "<group>";
+		};
+		69BBA598228C055500D6EEC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69BBA595228C055000D6EEC8 /* TYChartView.h */,
+				69BBA596228C055000D6EEC8 /* TYChartView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69BBA599228C058C00D6EEC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69BBA59A228C05AE00D6EEC8 /* TYRoomModel.h */,
+				69BBA59B228C05AE00D6EEC8 /* TYRoomModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +169,8 @@
 			files = (
 				69BBA584228C023800D6EEC8 /* ViewController.m in Sources */,
 				69BBA58F228C023B00D6EEC8 /* main.m in Sources */,
+				69BBA597228C055000D6EEC8 /* TYChartView.m in Sources */,
+				69BBA59C228C05AE00D6EEC8 /* TYRoomModel.m in Sources */,
 				69BBA581228C023800D6EEC8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
