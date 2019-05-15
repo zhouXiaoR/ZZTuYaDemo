@@ -23,6 +23,8 @@
 
     NSLog(@"增加方法二");
 
+    NSLog(@"增加方法三");
+
     return YES;
 }
 
@@ -32,6 +34,10 @@
 }
 
 - (void)addMethod2{
+
+}
+
+- (void)addMethod3{
 
 }
 
